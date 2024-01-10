@@ -1,0 +1,83 @@
+
+.mlitem {
+    padding: 15px 20px;
+    border-bottom: 1px solid #3d5a80;
+}
+
+.mlitem:last-child {
+    border-bottom: none;
+}
+
+.mlitem span {
+    line-height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 550px;
+}
+
+.mlitem input {
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+}
+
+.mlitem button {
+    width: 30px;
+    background-color: rgb(52, 194, 111);
+    color: #33b419;
+    height: 30px;
+    margin: 3px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 110px;
+}
+.mlitem .star {
+    width: 30px;
+    background-color: rgb(36, 46, 40);
+    color: #788775;
+    height: 30px;
+    margin: 3px;
+    font-size: 17px;
+    border: none;
+    opacity: 2px;
+    cursor: pointer;
+}
+
+.mlitem .btn-cookie {
+    color: #59d042;
+}
+
+.mlitem .btn-trash {
+    color: #eda642;
+}
+
+.mlitem .fa-start {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: #238d43;
+    transition: 0.3s all;
+    transform: translateX(30px);
+    /* opacity: 0; */
+
+}
+
+.mlitem.like .fa-start {
+    color: #238d43;
+    opacity: 1;
+    transform: translateX(8px);
+}
+
+.mlitem.favorite .mlitem-label,
+.mlitem.favorite .mlitem-input {
+    color: #eda642;
+}
+
+.mlitem.favorite .btn-start {
+    color: #0f0a03;
+
+}
